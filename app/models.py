@@ -15,7 +15,7 @@ class Vestibular(models.Model):
     
 class Candidato(models.Model):
     nome = models.CharField(max_length=200)
-     RG = models.CharField(max_length=200)
+    RG = models.CharField(max_length=200)
     CPF = models.CharField(max_length=200)
     Endereço = models.CharField(max_length=200)
     Telefone = models.CharField(max_length=200)
