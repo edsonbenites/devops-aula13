@@ -19,5 +19,3 @@ class Prova(models.Model):
     cidade = models.CharField(max_length=200)
     estado = models.CharField(max_length=200)
   
-    
-
