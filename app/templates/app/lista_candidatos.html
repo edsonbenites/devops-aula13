@@ -8,12 +8,12 @@
 
 <table class="table">
     <tr><th>Nome, RG, CPF, Telefone, Endereço dos Candidatos</th></tr>
-        {% for candidato in candidatos %}
-          <tr><td>{{ candidato.nome }}</td></tr>
-          <tr><td>{{ candidato.RG }}</td></tr>
-          <tr><td>{{ candidato.CPF }}</td></tr>
-          <tr><td>{{ candidato.Telefone }}</td></tr>
-          <tr><td>{{ candidato.Endereço }}</td></tr>
+        {% for candidatos in candidatos %}
+          <tr><td>{{ candidatos.nome }}</td></tr>
+          <tr><td>{{ candidatos.RG }}</td></tr>
+          <tr><td>{{ candidatos.CPF }}</td></tr>
+          <tr><td>{{ candidatos.telefone }}</td></tr>
+          <tr><td>{{ candidatos.endereço }}</td></tr>
         {% endfor %}
 </table>
 
