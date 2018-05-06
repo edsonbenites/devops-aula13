@@ -88,5 +88,3 @@ def local_provas(request):
             'year':datetime.now().year,
         })
     )
-
-
