@@ -84,7 +84,7 @@ def local_provas(request):
         context_instance = RequestContext(request,
         {
             'title':'Local das Provas',
-            'local_provas': Prova.objects.all(),
+            'provas': Prova.objects.all(),
             'year':datetime.now().year,
         })
     )
