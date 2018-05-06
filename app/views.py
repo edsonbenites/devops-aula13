@@ -1,6 +1,6 @@
 """
 Definition of views.
-""
+"""
 
 from django.shortcuts import render
 from django.http import HttpRequest
@@ -88,5 +88,3 @@ def lista_candidatos(request):
             'year':datetime.now().year,
         })
     )
-
-
