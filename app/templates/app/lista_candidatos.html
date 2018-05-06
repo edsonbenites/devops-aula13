@@ -10,6 +10,10 @@
   <tr><th>Nome do vestibular</th></tr>
     {% for candidato in candidatos %}
       <tr><td>{{ candidato.nome }}</td></tr>
+      <tr><td>{{ candidato.RG }}</td></tr>
+      <tr><td>{{ candidato.CPF }}</td></tr>
+      <tr><td>{{ candidato.Endereço }}</td></tr>
+      <tr><td>{{ candidato.Telefone }}</td></tr>
     {% endfor %}
 </table>
 
