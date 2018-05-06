@@ -71,7 +71,7 @@ def lista_vestibulares(request):
         context_instance = RequestContext(request,
         {
             'title':'Cadastro de vestibulares',
-            'vestibulares': Vestibular.objects.all(),
+            '': Vestibular.objects.all(),
             'year':datetime.now().year,
         })
     )
@@ -84,7 +84,7 @@ def lista_candidatos(request):
         context_instance = RequestContext(request,
         {
             'title':'Lista de Canditatos',
-            'vestibulares': Candidato.objects.all(),
+            'Candidatos': Candidato.objects.all(),
             'year':datetime.now().year,
         })
     )
